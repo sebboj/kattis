@@ -5,18 +5,11 @@ def even(a):
 def odd(b):
     return b % 2 == 1
 
-
-def toIntArr(c):
-    o = [0]*len(c)
-    for x in range(len(o)):
-        o[x] = int(c[x])
-    return o
-
 cases = int(input())
 for i in range(cases):
     nums = int(input())
     coins = input().split(" ")
-    coins = toIntArr(coins)
+    coins = [int(n) for n in coins]
     more = 0
     more1 = 0
     for u in range(len(coins)):
