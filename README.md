@@ -1,2 +1,2 @@
 # kattis
-problems I solved in kattis
+problems I solved in kattis :p
