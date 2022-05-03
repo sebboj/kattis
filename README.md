@@ -1,2 +1,3 @@
 # kattis
-problems I solved on https://open.kattis.com/ :p
+problems on kattis
+https://open.kattis.com/ :p
